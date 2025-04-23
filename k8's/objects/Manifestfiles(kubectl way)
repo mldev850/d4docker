@@ -1,0 +1,9 @@
+### Generating Kubernetes Manifests files with Kubectl
+
+- kubectl run nginx-pod --image=nginx:1.27.0 --dry-run=client -o yaml 
+- kubectl expose pod nginx-pod --type=NodePort --port=80 --dry-run=client -o yaml
+
+
+### ShortComings of Imperative Commands with Configuration Files
+
+ - 
