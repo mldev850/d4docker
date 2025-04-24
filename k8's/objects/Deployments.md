@@ -15,5 +15,8 @@
 - nginx-deployment → Deployment (abstracts the desired state)
 - nginx-deployment-6d8469f8db → ReplicaSet (created by Deployment, abstracts the Pod template)
 - nginx-deployment-6d8469f8db-zmhhg → Pod (individual unit running your container).
+- pod-template-hash : Will change if content is changed.
 
+
+  
 
