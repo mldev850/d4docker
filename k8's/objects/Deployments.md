@@ -27,4 +27,16 @@
  - kubectl rollout history deployment/nginx-deployment --revision=2  -o  yaml
  - Way2: kubectl annotate deployment/nginx-deployment 'kubernetes.io/change-cause'='update nginx to tag 1.2.1-alpine'
  
- 
+### TroubleShooting  Failed Rollouts
+  - wrong image and then created deployment
+  - kubectl rollout status deployment/nginx-deployment
+  - kubectl annotate deployment/nginx-deployment 'kubernetes.io/change-cause'='update the image tag to other'
+
+### What the heck is revision
+   - Every time you change a Deployment in Kubernetes (like updating the image version), Kubernetes takes a snapshot of that version.
+     That snapshot is called a revision.
+   - Change something → new revision is created.
+   - 🧭 Roll back to a previous version (like Undo)
+   - 📜 Track history of changes
+   - 🕵️‍♂️ Debug or audit what changed and when
+     
