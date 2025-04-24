@@ -12,4 +12,8 @@
 
 ### Creating and Managing Deployments
 - If we don't mention strategy: rolling updates by default rolling updates will be used.
-- 
+- nginx-deployment → Deployment (abstracts the desired state)
+- nginx-deployment-6d8469f8db → ReplicaSet (created by Deployment, abstracts the Pod template)
+- nginx-deployment-6d8469f8db-zmhhg → Pod (individual unit running your container).
+
+
