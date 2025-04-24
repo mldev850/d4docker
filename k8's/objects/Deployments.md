@@ -17,6 +17,13 @@
 - nginx-deployment-6d8469f8db-zmhhg → Pod (individual unit running your container).
 - pod-template-hash : Will change if content is changed.
 
+### Updating Pod Template
+ - change image and each and every pod will have image changes
 
-  
-
+### Understanding Rollouts
+ - kubectl rollout --help
+ - kubectl rollout history deployment/nginx-deployment
+ - kubectl rollout undo deployment/nginx-deployment ( One Previous step Back )
+ - kubectl rollout history deployment/nginx-deployment --revision=2  -o  yaml
+ 
+ 
