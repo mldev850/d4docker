@@ -25,5 +25,6 @@
  - kubectl rollout history deployment/nginx-deployment
  - kubectl rollout undo deployment/nginx-deployment ( One Previous step Back )
  - kubectl rollout history deployment/nginx-deployment --revision=2  -o  yaml
+ - Way2: kubectl annotate deployment/nginx-deployment 'kubernetes.io/change-cause'='update nginx to tag 1.2.1-alpine'
  
  
