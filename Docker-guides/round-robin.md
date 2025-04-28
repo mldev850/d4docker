@@ -14,7 +14,7 @@ Welcome! In this blog, we'll go step-by-step through a Docker networking practic
 
 ---
 ## Hands-On
-<video src="dns-roundrobin.webm" controls width="800"></video>
+[▶️ Click here to view the demo video](dns-roundrobin.webm)
 
 # Step 1: Create a New Virtual Network
 
