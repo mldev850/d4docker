@@ -1,6 +1,6 @@
 # Docker Networking: DNS Round Robin Practical Demo
 
-Welcome! In this blog, we'll go step-by-step through a Docker networking practical where we'll create containers, set up DNS round-robin, and test simple load balancing.
+Welcome! we'll go step-by-step through a Docker networking practical where we'll create containers, set up DNS round-robin, and test simple load balancing.
 
 ---
 
