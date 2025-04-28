@@ -13,6 +13,8 @@ Welcome! In this blog, we'll go step-by-step through a Docker networking practic
 - Best practices
 
 ---
+## Hands-On
+<video src="dns-roundrobin.webm" controls width="800"></video>
 
 # Step 1: Create a New Virtual Network
 
