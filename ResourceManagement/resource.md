@@ -1,4 +1,6 @@
 ### Resource Management
+
+### CPU
 | Docker Flag            | Meaning                                              | Unit                 | Example                           |
 |------------------------|------------------------------------------------------|----------------------|------------------------------------|
 | `--cpus=0.7`           | Limit total CPU usage                                | Number of CPUs       | `0.7` = 70% of 1 CPU              |
