@@ -16,3 +16,6 @@
 | `--memory-reservation`    | A **soft limit** – try to stay under this, okay to go above      | MB / GB       | `300m` means stay under 300 MB if possible |
 | `--oom-kill-disable`      | Prevents Docker from **killing the container** if it uses too much memory | true / false  | `--oom-kill-disable=true`     |
 | `--memory-swappiness`     | Controls how much memory goes to **swap** (0 = never, 100 = often) | Percent       | `--memory-swappiness=60` (default) |
+
+
+⚠️ Key rule: --memory overrides in any conflict.
